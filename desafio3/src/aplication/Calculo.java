@@ -33,7 +33,7 @@ public class Calculo {
 		
 		System.out.println("O aluno esta: ");
 		
-		if(media >= 7 && falta < 15 ) {
+		if(media >= 7 && falta <= 15 ) {
 			System.out.println("PASSED");
 		}else {
 			System.out.println("NO PASS!");
