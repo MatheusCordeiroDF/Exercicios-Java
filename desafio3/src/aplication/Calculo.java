@@ -34,9 +34,9 @@ public class Calculo {
 		System.out.println("O aluno esta: ");
 		
 		if(media >= 7 && falta <= 15 ) {
-			System.out.println("PASSED");
+			System.out.println("APROVADO");
 		}else {
-			System.out.println("NO PASS!");
+			System.out.println("REPROVADO!");
 		}
 		
 	}
